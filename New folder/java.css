@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.last {
+    font-size: 100px;
+    background: linear-gradient(50deg, rgb(231, 21, 137) 40%, rgb(228, 43, 228) 80%, rgb(62, 43, 228) 200%);
+    color: white;
+    text-align: center;
+    border: 5px solid rgb(196, 50, 135);
+}
+
+.first {
+    font-size: 150px;
+    color: yellow;
+    background-color: black;
+    text-align: end;
+    border: 5px solid yellow;
+}
+
+
+/* .main{
+    background-color: black;
+    width: 1200px;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    color: white;
+    position: relative;
+    bottom: 0px;
+} */
+/* 
+button{
+    width: 100px;
+    color: white;
+    font-weight: 900;
+    border: none;
+    padding: 10px;
+} */
+
+/* .red{
+    background-color: red;
+}
+.black{
+    background-color: black;
+}
+.yellow{
+    background-color: yellow;
+}
+.pink{
+    background-color: pink;
+}
+.orange{
+    background-color: orange;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+} */
+
+.calulator {
+    width: 500px;
+    height: 640px;
+    margin: auto;
+    background-color: rgb(44, 44, 44);
+    border-radius: 20px;
+    padding: 40px 20px 40px 20px;
+}
+
+
+.button {
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button button {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+.output input {
+    width: 340px;
+    height: 100px;
+    background-color: rgb(207, 193, 193) !important;
+    border-radius: 20px;
+    font-size: 40px;
+}
+
+.output button {
+    width: 100px;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+button:last-child {
+    background-color: black;
+    color: white;
+}
+
+
+
+.button:last-child button:first-child {
+    background-color: red;
+    border: none;
+}
+
+.button:last-child button:nth-child(3) {
+    background-color: black;
+    color: white;
+}
+
+.equal {
+    width: 400px !important;
+}
+
+.output {
+    display: flex;
+    gap: 20px;
+}
+
+.form div {
+    margin-top: 20px;
+}
+
+.main-form {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.list-countainer {
+
+    margin: 50px;
+
+}
